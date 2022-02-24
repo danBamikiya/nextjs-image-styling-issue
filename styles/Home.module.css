@@ -1,0 +1,21 @@
+.pagewrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.authpages_section {
+  flex-basis: 50%;
+  height: 100vh;
+}
+
+.authpages_heroimg {
+  display: inline-flex;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
