@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+import HeroImg from '../assets/hero.png'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <section className={styles.authpages_section}>
         <span className={styles.authpages_heroimg}>
           <Image
-            src="https://i.postimg.cc/tggyFBWh/login-img.png"
+            src={HeroImg}
             alt="an hero img"
             layout="fill"
           />
